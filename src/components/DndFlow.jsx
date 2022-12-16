@@ -37,8 +37,6 @@ const DnDFlow = () => {
       const reactFlowBounds = reactFlowWrapper.current.getBoundingClientRect();
       const type = event.dataTransfer.getData('application/reactflow');
 
-      console.log(type);
-
       // check if the dropped element is valid
       if (typeof type === 'undefined' || !type) {
         return;
