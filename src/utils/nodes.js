@@ -18,6 +18,21 @@ const initialNodes = [
     data: { label: 'Output Node' },
     position: { x: 250, y: 250 },
   },
+  {
+    id: '4',
+    data: { label: 'Output Node' },
+    position: { x: 250, y: 300 },
+  },
+  {
+    id: '5',
+    data: { label: 'Output Node' },
+    position: { x: 250, y: 350 },
+  },
+  {
+    id: '6',
+    data: { label: 'Output Node' },
+    position: { x: 250, y: 400 },
+  },
 ];
 
 export default initialNodes;

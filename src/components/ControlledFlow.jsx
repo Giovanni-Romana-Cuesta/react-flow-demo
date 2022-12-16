@@ -45,7 +45,6 @@ const ControlledFlow = () => {
   return (
     <div className='container'>
       <ReactFlow
-        fitView
         nodes={nodes}
         edges={edges}
         onConnect={onConnect}
